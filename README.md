@@ -82,24 +82,7 @@ GET /foods/:search - Search for food items
 Diet:
 GET /track/:userId/:date - Get food items consumed on a specific date
 
-Project Structure :-
-nutrition-tracker/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   ├── .env
-│   └── .gitignore
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   ├── contexts/
-    │   ├── App.js
-    │   ├── index.js
-    ├── public/
-    ├── .gitignore
-    └── package.json
+
     
 Usage
 Register a new user.
