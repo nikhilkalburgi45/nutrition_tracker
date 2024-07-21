@@ -34,16 +34,12 @@ A full-stack nutrition tracker application developed using Express, MongoDB, bcr
 
 2 Install backend dependencies:
 
-bash
-Copy code
 cd backend
 npm install
 
 
 3 Install frontend dependencies:
 
-bash
-Copy code
 cd ../frontend
 npm install
 
@@ -53,20 +49,15 @@ Environment Variables:
 
 Create a .env file in the backend directory and add the following:
 
-env
-Copy code
 MONGO_URI=mongodb://localhost:27017/nutrify
 JWT_SECRET=your_secret_key
 PORT=8000
 Run the backend server:
 
-bash
-Copy code
 cd backend
 npm start
 Run the frontend server:
 
-bash
 cd ../frontend
 npm start
 
